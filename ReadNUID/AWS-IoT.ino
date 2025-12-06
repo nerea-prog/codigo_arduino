@@ -116,7 +116,6 @@ void CallbackAWS(String &topic, String &payload) {
   digitalWrite(LED_PIN, HIGH);
   Serial.println("[AWS] LED encès per missatge rebut");
 
-  // Opcional: apagar después de 2 segundos
   delay(2000);
   digitalWrite(LED_PIN, LOW);
   Serial.println("[AWS] LED apagat després de 2 segons");
